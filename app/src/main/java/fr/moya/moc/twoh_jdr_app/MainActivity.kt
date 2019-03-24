@@ -73,8 +73,3 @@ open class MainActivity(protected val contentLayoutId: Int? = null) : AppCompatA
         return true
     }
 }
-
-/* fun <T : View> MainActivity.bind(@IdRes res : Int) : T {
-    @Suppress("UNCHECKED_CAST")
-    return findViewById(res)
-} */
