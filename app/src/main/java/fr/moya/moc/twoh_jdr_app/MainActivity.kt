@@ -55,9 +55,6 @@ open class MainActivity(protected val contentLayoutId: Int? = null) : AppCompatA
             R.id.nav_home -> {
                 // Handle the camera action
             }
-            R.id.nav_stats -> {
-
-            }
             R.id.nav_inventory -> {
 
             }
