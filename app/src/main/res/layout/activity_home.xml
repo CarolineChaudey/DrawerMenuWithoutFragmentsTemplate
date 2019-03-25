@@ -68,11 +68,11 @@
                 android:orientation="horizontal">
             <TextView
                     style="@style/labels"
-                    android:labelFor="@id/hpInput"
+                    android:labelFor="@id/lvlInput"
                     android:text="@string/levelLabel"/>
 
             <EditText
-                    android:id="@+id/hpInput"
+                    android:id="@+id/lvlInput"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:inputType="number"
@@ -81,10 +81,11 @@
 
             <TextView
                     style="@style/labels"
+                    android:labelFor="@id/xpInput"
                     android:text="@string/xpLabel"/>
 
             <EditText
-                    android:id="@+id/mawHpInput"
+                    android:id="@+id/xpInput"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:inputType="number"
@@ -99,9 +100,11 @@
 
             <TextView
                     style="@style/labels"
+                    android:labelFor="@id/hpInput"
                     android:text="@string/hpLabel"/>
 
             <EditText
+                    android:id="@+id/hpInput"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -112,6 +115,7 @@
                     android:text="/"/>
 
             <EditText
+                    android:id="@+id/maxHpInput"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -121,23 +125,7 @@
         <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-            <EditText
-                    android:id="@+id/rupeesInput"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:inputType="number"
-                    android:layout_weight="3"/>
-
-            <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
-                    android:labelFor="@id/rupeesInput"
-                    android:text="@string/rupeesLabel"
-                    android:layout_weight="1"/>
-        </LinearLayout>
+                android:orientation="horizontal"/>
 
         <TextView
                 android:layout_width="match_parent"
@@ -202,9 +190,11 @@
 
             <TextView
                     style="@style/labels"
+                    android:labelFor="@id/forceStatInput"
                     android:text="@string/forceStatLabel"/>
 
             <EditText
+                    android:id="@+id/forceStatInput"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:inputType="number"
@@ -212,9 +202,11 @@
 
             <TextView
                     style="@style/labels"
+                    android:labelFor="@id/constitutionStatInput"
                     android:text="@string/constitutionStatLabel"/>
 
             <EditText
+                    android:id="@+id/constitutionStatInput"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:inputType="number"
@@ -228,9 +220,11 @@
 
             <TextView
                     style="@style/labels"
+                    android:labelFor="@id/wisdomStatInput"
                     android:text="@string/wisdomStatLabel"/>
 
             <EditText
+                    android:id="@+id/wisdomStatInput"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:inputType="number"
@@ -238,9 +232,11 @@
 
             <TextView
                     style="@style/labels"
+                    android:labelFor="@id/charismaStatInput"
                     android:text="@string/charismaStatLabel"/>
 
             <EditText
+                    android:id="@+id/charismaStatInput"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:inputType="number"
@@ -254,9 +250,11 @@
 
             <TextView
                     style="@style/labels"
+                    android:labelFor="@id/intelligenceStatInput"
                     android:text="@string/intelligenceStatLabel"/>
 
             <EditText
+                    android:id="@+id/intelligenceStatInput"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:inputType="number"
@@ -264,9 +262,11 @@
 
             <TextView
                     style="@style/labels"
+                    android:labelFor="@id/dexterityStatInput"
                     android:text="@string/dexterityStatLabel"/>
 
             <EditText
+                    android:id="@+id/dexterityStatInput"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:inputType="number"
