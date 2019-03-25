@@ -10,7 +10,8 @@
     <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:layout_margin="@dimen/activity_horizontal_margin">
 
         <LinearLayout
                 android:layout_width="match_parent"
@@ -18,9 +19,7 @@
                 android:orientation="horizontal">
 
             <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
+                    style="@style/labels"
                     android:labelFor="@+id/characterNameInput"
                     android:text="@string/characterNameLabel"/>
 
@@ -37,9 +36,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
             <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
+                    style="@style/labels"
                     android:labelFor="@id/raceInput"
                     android:text="@string/raceLabel"/>
 
@@ -52,9 +49,7 @@
             />
 
             <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
+                    style="@style/labels"
                     android:labelFor="@id/rpgClassInput"
                     android:text="@string/rpgClassLabel"/>
 
@@ -72,9 +67,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
             <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
+                    style="@style/labels"
                     android:labelFor="@id/hpInput"
                     android:text="@string/levelLabel"/>
 
@@ -87,9 +80,7 @@
             />
 
             <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
+                    style="@style/labels"
                     android:text="@string/xpLabel"/>
 
             <EditText
@@ -107,9 +98,7 @@
                 android:orientation="horizontal">
 
             <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
+                    style="@style/labels"
                     android:text="@string/hpLabel"/>
 
             <EditText
@@ -119,9 +108,7 @@
                     android:inputType="number"/>
 
             <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
+                    style="@style/labels"
                     android:text="/"/>
 
             <EditText
@@ -156,7 +143,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="25sp"
-                android:text="@string/destinyPointsTitle"/>
+                android:text="@string/destinyPointsTitle"
+                android:layout_marginTop="@dimen/activity_vertical_margin"/>
 
         <LinearLayout
                 android:layout_width="match_parent"
@@ -164,9 +152,7 @@
                 android:orientation="horizontal">
 
             <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
+                    style="@style/labels"
                     android:labelFor="@id/destinyForceInput"
                     android:text="@string/destinyForceLabel"/>
 
@@ -178,9 +164,7 @@
                     android:layout_weight="1"/>
 
             <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
+                    style="@style/labels"
                     android:labelFor="@id/destinyWisdomInput"
                     android:text="@string/destinyWisdomLabel"/>
 
@@ -192,9 +176,7 @@
                     android:layout_weight="1"/>
 
             <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
+                    style="@style/labels"
                     android:labelFor="@id/destinyCourageInput"
                     android:text="@string/destinyCourageLabel"/>
 
@@ -210,7 +192,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="25sp"
-                android:text="@string/statsTitle"/>
+                android:text="@string/statsTitle"
+                android:layout_marginTop="@dimen/activity_vertical_margin"/>
 
         <LinearLayout
                 android:layout_width="match_parent"
@@ -218,9 +201,7 @@
                 android:orientation="horizontal">
 
             <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
+                    style="@style/labels"
                     android:text="@string/forceStatLabel"/>
 
             <EditText
@@ -230,9 +211,7 @@
                     android:layout_weight="1"/>
 
             <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
+                    style="@style/labels"
                     android:text="@string/constitutionStatLabel"/>
 
             <EditText
@@ -248,9 +227,7 @@
                 android:orientation="horizontal">
 
             <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
+                    style="@style/labels"
                     android:text="@string/wisdomStatLabel"/>
 
             <EditText
@@ -260,9 +237,7 @@
                     android:layout_weight="1"/>
 
             <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
+                    style="@style/labels"
                     android:text="@string/charismaStatLabel"/>
 
             <EditText
@@ -278,9 +253,7 @@
                 android:orientation="horizontal">
 
             <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
+                    style="@style/labels"
                     android:text="@string/intelligenceStatLabel"/>
 
             <EditText
@@ -290,9 +263,7 @@
                     android:layout_weight="1"/>
 
             <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
+                    style="@style/labels"
                     android:text="@string/dexterityStatLabel"/>
 
             <EditText
