@@ -1,5 +1,6 @@
 package fr.moya.moc.twoh_jdr_app
 
+import android.content.Intent
 import android.os.Bundle
 import android.support.annotation.IdRes
 import android.support.design.widget.Snackbar
@@ -62,7 +63,9 @@ open class MainActivity(protected val contentLayoutId: Int? = null) : AppCompatA
 
             }
             R.id.nav_capacities -> {
-
+                val intent = Intent(this, CapacitiesActivity::class.java)
+                startActivity(intent)
+                this.finish()
             }
         }
 
