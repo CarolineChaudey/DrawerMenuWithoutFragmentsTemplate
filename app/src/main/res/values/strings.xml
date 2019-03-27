@@ -29,4 +29,12 @@
     <string name="intelligenceStatLabel">intelligence</string>
     <string name="dexterityStatLabel">dextérité</string>
     <string name="saveButton">sauvegarder</string>
+    <string name="capacitiesActivityTitle">Capacités</string>
+    <string name="capacityFormTitle">Création de capacité</string>
+    <string name="capacityNameHint">nom de la capacité</string>
+    <string name="capacityRankHint">rang</string>
+    <string name="capacityBonusHint">bonus</string>
+    <string name="capacityHandicapHint">handicap</string>
+    <string name="capacityTotalHint">total</string>
+    <string name="addCapacityButton">ajouter</string>
 </resources>

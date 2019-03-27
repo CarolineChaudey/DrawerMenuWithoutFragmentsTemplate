@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".CapacityFormActivity">
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <EditText
+                android:id="@+id/capacityNameInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="@string/capacityNameHint"/>
+
+        <EditText
+                android:id="@+id/capacityRankInput"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="@string/capacityRankHint"/>
+
+        <EditText
+                android:id="@+id/capacityBonusInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="@string/capacityBonusHint"/>
+
+        <EditText
+                android:id="@+id/capacityHandicapInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="@string/capacityHandicapHint"/>
+
+        <EditText
+                android:id="@+id/capacityTotalInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="@string/capacityTotalHint"/>
+
+        <Button
+                android:id="@+id/capacityCreationButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/addCapacityButton"
+                android:background="@drawable/button_selector"
+                android:onClick="saveCapacity"/>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
