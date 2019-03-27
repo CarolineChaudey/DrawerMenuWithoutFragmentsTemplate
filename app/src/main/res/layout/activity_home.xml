@@ -279,7 +279,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:background="@color/colorAccent"/>
+                    android:onClick="saveData" android:background="@drawable/button_selector"/>
 
         </LinearLayout>
     </ScrollView>
