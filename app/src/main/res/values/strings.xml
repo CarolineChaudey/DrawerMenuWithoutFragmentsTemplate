@@ -37,4 +37,8 @@
     <string name="capacityHandicapHint">handicap</string>
     <string name="capacityTotalHint">total</string>
     <string name="addCapacityButton">ajouter</string>
+    <string name="capacityItemRankLabel">Rang : </string>
+    <string name="capacityItemBonusLabel">Bonus : </string>
+    <string name="capacityItemHandicapLabel">Handicap : </string>
+    <string name="capacityItemTotalLabel">Total : </string>
 </resources>

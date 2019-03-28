@@ -24,7 +24,6 @@ class CapacityFormActivity : AppCompatActivity() {
             capacityTotalInput.text.toString())
         var capacities = Paper.book().read<MutableList<Capacity>>("capacities")
         if (capacities == null) {
-            Log.e("CapacityFormActivity", "no capacities")
             capacities = mutableListOf(capacity)
         } else {
             Log.e("CapacityFormActivity", capacities.toString())

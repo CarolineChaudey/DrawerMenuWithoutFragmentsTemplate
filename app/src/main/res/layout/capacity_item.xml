@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+                                              android:layout_width="match_parent"
+                                              android:layout_height="wrap_content"
+                                              android:orientation="vertical"
+                                              android:layout_marginBottom="5dp"
+                                              android:padding="5dp">
+
+    <TextView
+            android:id="@+id/capacityItemName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimary"/>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView
+                style="@style/labels"
+                android:id="@+id/capacityItemRankLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/capacityItemRankLabel"/>
+
+        <TextView
+                android:id="@+id/capacityItemRank"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView
+                style="@style/labels"
+                android:id="@+id/capacityItemBonusLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/capacityItemBonusLabel"/>
+
+        <TextView
+                android:id="@+id/capacityItemBonus"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView
+                style="@style/labels"
+                android:id="@+id/capacityItemHandicapLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/capacityItemHandicapLabel"/>
+
+        <TextView
+                android:id="@+id/capacityItemHandicap"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView
+                style="@style/labels"
+                android:id="@+id/capacityItemTotalLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/capacityItemTotalLabel"/>
+
+        <TextView
+                android:id="@+id/capacityItemTotal"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</android.support.v7.widget.LinearLayoutCompat>
